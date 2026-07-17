@@ -4,7 +4,7 @@ Example 1:
 Input: s = ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]'''
 
-#two pointers approach
+#two pointers approach 
 def revstring(s):
     left=0
     right=len(s)-1

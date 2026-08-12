@@ -128,11 +128,21 @@ list → reusable multiple times.'''
 # print(len(name))
 # print(len(input()))
 
-#15.Take three integers and print then in reverse order
-arr=list(map(int,input().split()))
-rev=[]
-for i in arr[::-1]:
-    rev.append(i)
-print(*rev)
+# #15.Take three integers and print then in reverse order
+# arr=list(map(int,input().split()))
+# rev=[]
+# for i in arr[::-1]:
+#     rev.append(i)
+# print(*rev)
 
-print(*map(int, input().split())[::-1])
+# print(*map(int, input().split())[::-1])
+
+#isinstance()
+x="10"
+print(isinstance(x,int))
+
+##.check multiple types with isinstance()
+x=10.2333
+print(isinstance(x,(int,str,bool,float)))
+
+print(float('10.8'))
